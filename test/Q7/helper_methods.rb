@@ -2,7 +2,7 @@
 
 
 module HelperMethods
-  def self.titleize(string)
+  def titleize(string)
     omit_array=["in","the", "of", "and", "or", "from"]
     words_array=string.split
     new_array=[]
